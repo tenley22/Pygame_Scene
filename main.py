@@ -47,8 +47,9 @@ while running:
 
     # trees
     for multiplier in range (4):
-        pygame.draw.polygon(screen, GREEN, ((100 + 180*multiplier, 100), (0 + 180*multiplier, 700), (200 + 180*multiplier, 700)))
-        pygame.draw.polygon(screen, GREEN2, ((20 + 180 * multiplier, 100), (-80 + 180 * multiplier, 700), (120 + 180 * multiplier, 700)))
+        pygame.draw.polygon(screen, GREEN, ((100 + 180*multiplier, 100), (50 + 180*multiplier, 250), (75 + 180*multiplier, 230), (40 + 180*multiplier, 350), (65 + 180*multiplier, 330), (0 + 180*multiplier, 700), (200 + 180*multiplier, 700), (125 + 180*multiplier, 330), (150 + 180*multiplier, 350), (115 + 180*multiplier, 230), (140 + 180*multiplier, 250)))
+
+        pygame.draw.polygon(screen, GREEN2, ((20 + 180 * multiplier, 100), (-40 + 180 * multiplier, 250), (-15 + 180 * multiplier, 230), (-50 + 180 * multiplier, 350), (-25 + 180 * multiplier, 330), (-80 + 180 * multiplier, 700), (120 + 180 * multiplier, 700), (35 + 180 * multiplier, 330), (60 + 180 * multiplier, 350), (25 + 180 * multiplier, 230), (50 + 180 * multiplier, 250)))
 
 
 
